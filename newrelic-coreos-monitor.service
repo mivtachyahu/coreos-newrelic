@@ -1,0 +1,7 @@
+[Service]
+ExecStart=/usr/bin/systemd-nspawn -D /opt/newrelic-coreos-monitor --bind=/dev:/dev --bind=/usr/share/oem:/usr/share/oem --share-system --capability=all --user=root --keep-unit /start.sh  <put your licence key here> 
+Restart=always
+RestartSec=60s
+[Install]
+WantedBy=multi-user.target
+
