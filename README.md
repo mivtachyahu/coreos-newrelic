@@ -1,3 +1,6 @@
+DEPRECATED - Use the official newrelic docker image with appropriate volume maps.
+THIS WAS A PRETTY SWEET WORK AROUND FOR A WHILE THO! ;)
+
 Usage:
 
 * Update the Dockerfile to point at the latest newrelic instance
